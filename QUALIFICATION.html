@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SANIA'S QUALIFICATION</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideToggle("slow");
+  });
+});
+</script>
+<body style="background-color:Lavender">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: lightblue;
+  border: 1px solid black;
+  margin-right: 220px;
+  margin-left: 220px;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+#more {display: none;}
+p1{font-size:20px;}
+p2{font-size:20px;}
+b{font-size:20px;}
+h1 {
+  background-color: green;
+   }
+h2 {
+  text-decoration:underline;
+   }
+
+
+div {
+border: 1px solid black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  background-color: lightblue;
+  opacity: 1;
+}
+
+
+</style>
+</head>
+
+
+<body>
+<h1style="font-size:10px">CHITCHAT <sup> with </sup> SANIA</h1><img src="logo1.jpg" width="50" height="50">
+<br>
+<br>
+<hr>
+<br>
+<br>
+<br>
+<div>
+<nav>
+<table cellspacing="6" cellpading="5">
+<tr>
+<td><a href="home.html"><b>PROFILE</b></a> ||</td> <img src="image/Q1.jpg" width="250" height="300" align="right"><img src="image/Q3.jpg" width="250" height="300" align="right"><img src="image/Q2.jpg" width="250" height="300" align="right">
+<td><a href="QUALIFICATION.html"><b>QUALIFICATION</b></a> ||</td>
+<td><a href="CONTACT.html"><b>CONTACT</b></a>  ||</td>
+<td><a href="INTERESTS.html"><b>INTEREST</b></a>  ||</td>
+<td><a href="GOOD_AT.html"><b>GOOD AT</b></a> ||</td>
+</tr>
+</table>
+</nav>
+</div>
+<br>
+<br>
+<h2 style="color=red"><i>"Education Is Not A Qualification Received But Knowledge Acquired."</i></h2>
+<br>
+<br>
+<ul>
+<li>I did my SSC from  <em> "Fatima Girls High School" </em> from Rawalakot AJK.</li>
+<li>I did my HSSC from  <em> "Rawalakot Model School" </em> from Rawalakot AJK aswell.</li>
+<li>Currently I am doing my BS from <em>"International Islamic University Islamabad".</em></li>
+<br>
+<p>To say Education is important is an understatement. Education is a weapon to improve one’s life. It is probably the most
+important<span id="dots">......</span><span id="more"> tool to change one’s life.Education for a child begins at home. It is a lifelong process that ends with death. Education certainly determines the quality of an individual’s life.
+Education improves one’s knowledge, skills and develops the personality and attitude. Most noteworthy, Education affects the chances of employment for people.
+A highly educated individual is probably very likely to get a good job. <b>Importance of Education in Life</b> can't be dennied.First of all, Education teaches the ability to read and write. Reading and writing is the first step in Education. Most information is done by writing. Hence, the lack of writing skill means missing out on a lot of information. Consequently, Education makes people literate.
+
+Above all, Education is extremely important for employment. It certainly is a great opportunity to make a decent living. This is due to the skills of a high paying job that Education provides. Uneducated people are probably at a huge disadvantage when it comes to jobs. It seems like many poor people improve their lives with the help of Education. <b>I</b> did my schooling from AJK Rawalakot and passes SSC exams with SCIENCE Subjects as major
+in 2016 with A division and 85+ percentage. Then by the end of 2016 i got admission in HSSC with MATHS, COMPUTER and PHYSICS as majors and passes my HSSC exams
+in 2018 with A division , ALHAMDUILLAH!. In september 2019, i took admission in Islamic International University Islamabad in BS INFORMATION TECHNOLOGY,
+currently in my 6th semester and will soon be graduate by June of 2023. INSHA ALLAH!. You all know education
+is important.</span></p>
+<button onclick="myFunction()" id="myBtn">Read more</button>
+<div id="flip">Click to slide the panel</div>
+<div id="panel">Education has been greatly emphasized in Islam. The first verse of the Qur’an to be revealed to
+the Prophet Muhammad (pbuh) indicates the importance of education in Islam; the verse started
+with the word “Iqr’a”, it is a command that means ‘read’ in Arabic, and that implies the
+concepts of ‘learning’, ‘exploring’ and ‘seeking enlightenment'. This demonstrates that reading
+(knowledge) is the way to approach the Creator of all that exists. Verse 96/1-5 states:
+<b>"Read! In the Name of your Lord who has created (all that exists). He has created man
+from a clot (a piece of thick coagulated blood). Read! And your Lord is the Most
+Generous. Who has taught (the writing) by the pen. He has taught man that which he
+knew not."</b>
+Hence, Muslims believe that Allah created humanity and commanded that they seek knowledge
+in order to become stronger in their faith.The hadith3
+ of the Prophet (pbuh) also emphasise the value of knowledge. As the following
+hadith narrated by Abu Hurairah notes:<b>"When a man dies, his acts come to an end, but three, recurring charity, or knowledge (by
+which people) benefit, or a pious son, who prays for him (the deceased)."</b>(Sahih Muslim:
+Book 12, Hadith 4005).
+Therefore, in the Qur’an and hadith, the importance of education is explicit; in Islam seeking
+education is obligatory, and that knowledge is considered to be the path towards greater
+closeness to Allah.</div>
+
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+
+</ul>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>WELLCOME TO SANIA'S WEBPAGE</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<body style="background-color:Lavender">
+<style>
+h1 {
+  background-color: green;
+   }
+h3 {
+  text-decoration:underline;
+   }
+b{font-size:20px;}
+
+#myDIV {
+  width: 75%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+div {
+border: 1px solid black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  background-color: lightblue;
+  opacity: 1;
+}
+
+</style>
+</head>
+
+
+<body>
+<h1style="font-size:10px">CHITCHAT <sup> with </sup> SANIA</h1><img src="logo1.jpg" width="50" height="50">
+<br>
+<br>
+<hr>
+<h2 style="text-align:center;border:1px solid black;font-size:25px;color:black;background-color:
+lightblue;font-family:courier">HIE! SANIA PERVEZ KHAN HERE.....</h2>
+<h2 style="text-align:center;border:1px solid black;font-size:25px;color:black;background-color:
+lightblue;font-family:courier">**YOU ALL ARE ALWAYS WELLCOME TO CHITCHAT <sup> with </sup> SANIA**</h2>
+<hr>
+<br>
+<br>
+<br>
+<div>
+<nav>
+<table cellspacing="6" cellpading="5">
+<tr>
+<td><a href="home.html"><b>PROFILE</b></a> ||</td> <img src="image/image1.jpg" width="300" height="350" align="right">
+<td><a href="QUALIFICATION.html"><b>QUALIFICATION</b></a> ||</td>
+<td><a href="CONTACT.html"><b>CONTACT</b></a>  ||</td>
+<td><a href="INTERESTS.html"><b>INTEREST</b></a>  ||</td>
+<td><a href="GOOD_AT.html"><b>GOOD AT</b></a> ||</td>
+</tr>
+</table>
+</nav>
+</div>
+
+<br>
+<h3 ><i>"When a person loves <b><u>SLUSHES</u></b> I am his friend and comrade, without further introduction."</i></h3>
+<ul>
+<li>Call me <em>SANI</em>.</li>
+<li>I am from <em>KAHSHMIR</em>,<em>"Land of Mountains , Meadows and Waterfalls"</em>.</li>
+<li>Soon to be an <em>IT SPECIALIST</em> by the end of 2023.</li>
+<li>Trying to be a Developer, Researcher and a Creator.</li>
+<li>What i am today, only by the grace of ALLAH and with the support of my family.</li>
+
+<button onclick="myFunction()">Hide/Show</button>
+
+<div id="myDIV"><b>Who am I?</b> A question that would made you think well and might puzzle you out.Describing yourself is harder than describing someone because there are some areas in you that you are not certain of such as characteristics, personalities, and attitude. Also, there are things that other people would notice while we can’t because those things are the things we do that we are not conscious about. Talking about myself,I am Sania Pervez Khan, a 22 year-old girl turning 23 by next April 2023, from Rawalakot,Azad Jammu & Kashmir. Starting from my physical characteristics, I have a healthy body. I have a medium skin complexion, round light brown eyes,and a medium length black/brown hair. I am tall for a girl, 5’4 ½ to be exact. On the other hand, I am also very emotional person who cries when I feel broke, mad, sad, and even when I’m just watching movie.I can't easily express my feelings, I will hold them until I explode.I am surely an introvert person. I am a person who makes mistakes but try to  learn from them. I usually don't ask other people’s opinion or confirmation before I decide things.I easily get stressed when there are bucket of things to do at a time but I love multi-tasking.I am hardworking and I have goals in life to accomplish which is to honor my parents by graduating on time and if given a chance, also by receiving some awards, and to be a successful working woman. INSHA ALLAH!
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+<li><b> YA  ALLAH! Tera Shukar!</b></li>
+<br>
+<br>
+<h3 style="text-align:center"><b><em><ul>"BE A GOOD PERSON BUT DON'T WASTE TIME TO PROVE IT..."</em></b></ul></h3>
+</ul>
+
+</body>
+</html>

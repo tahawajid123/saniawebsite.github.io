@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SANIA'S HOBBIES</title>
+
+<body style="background-color:Lavender">
+<style>
+p1{font-size:20px;}
+p2{font-size:20px;}
+b{font-size:20px;}
+h1 {
+  background-color: green;
+   }
+h2 {
+  text-decoration:underline;
+   }
+
+div {
+border: 1px solid black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  background-color: lightblue;
+  opacity: 1;
+}
+
+
+</style>
+</head>
+
+
+<body>
+<h1style="font-size:10px">CHITCHAT <sup> with </sup> SANIA</h1><img src="logo1.jpg" width="50" height="50">
+<br>
+<br>
+<hr>
+<br>
+<br>
+<br>
+<div>
+<nav>
+<table cellspacing="6" cellpading="5">
+<tr>
+<td><a href="home.html"><b>PROFILE</b></a> ||</td> <img src="image/h3.jpg" width="300" height="350" align="right"><img src="image/hobby.jpg" width="300" height="350" align="right">
+<td><a href="QUALIFICATION.html"><b>QUALIFICATION</b></a> ||</td>
+<td><a href="CONTACT.html"><b>CONTACT</b></a>  ||</td>
+<td><a href="INTERESTS.html"><b>INTEREST</b></a>  ||</td>
+<td><a href="GOOD_AT.html"><b>GOOD AT</b></a> ||</td>
+</tr>
+</table>
+</nav>
+</div>
+<br>
+<br>
+<h2><i>"When a habbit begins to cost money, it's called as HOBBY"</i></h2>
+<p>I used to do alot of different works in my spare time, that includes:</p>
+<ul>
+<li>Cooking</li>
+<li>Reading</li>
+<li>Painting</li>
+<li>Travelling</li>
+<li>Listening Music etc etc.</li>
+<br>
+<br>
+<p>I used to do above mentioned thing because <em><b>"By Doing Gossipping We Just Waste Our Time And Energy."</em></p>
+</ul>
+</body>
+</html>

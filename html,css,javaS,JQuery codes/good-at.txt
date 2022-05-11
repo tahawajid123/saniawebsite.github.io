@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SANIA'S EXPERTISE</title>
+
+<body style="background-color:Lavender">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+#more {display: none;}
+p1{font-size:20px;}
+p2{font-size:20px;}
+b{font-size:20px;}
+h1 {
+  background-color: green;
+   }
+h3 {
+  text-decoration:underline;
+   }
+
+div {
+border: 1px solid black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  background-color: lightblue;
+  opacity: 1;
+}
+
+
+</style>
+</head>
+
+
+<body>
+<h1style="font-size:10px">CHITCHAT <sup> with </sup> SANIA</h1><img src="logo1.jpg" width="50" height="50">
+<br>
+<br>
+<hr>
+<br>
+<br>
+<br>
+<div>
+<nav>
+<table cellspacing="6" cellpading="5">
+<tr>
+<td><a href="home.html"><b>PROFILE</b></a> ||</td> <img src="image/good.jpg" width="300" height="350" align="right"><img src="image/experties.jpg" width="300" height="350" align="right">
+<td><a href="QUALIFICATION.html"><b>QUALIFICATION</b></a> ||</td>
+<td><a href="CONTACT.html"><b>CONTACT</b></a>  ||</td>
+<td><a href="INTERESTS.html"><b>INTEREST</b></a>  ||</td>
+<td><a href="GOOD_AT.html"><b>GOOD AT</b></a> ||</td>
+</tr>
+</table>
+</nav>
+</div>
+<br>
+<br>
+<h3><i>"DON'T FORGET THAT YOU CAN ONLY SELL THE THING THAT YOU HAVE PROFICIENCY IN."</i></h3>
+<ul>
+<li>Cooking</li>
+<li>Heena Art</li>
+<li>Make-up</li>
+<li>Designing etc.</li>
+<br>
+<p>Above mentioned thing are the general expertise of mine.
+<span id="dots">...</span><span id="more">From education percespective, I have managed to learn different
+programming languages like C, C++, HTML, JavaScript , SQL , learnt DB Management , Web Designing , Social Media Marketing, learnt Encryption/Decryption, Information Security
+Human-Computer Interactio , Computer Networks and Connections and many more things about which i got a chance to learn and have proficiency in. ALHAMDULILLAH!</span></p>
+<button onclick="myFunction()" id="myBtn">Read more</button>
+
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+<br>
+<br>
+<p><b>I am trying to grab every little information about them so i can get proficiency in them ,<em> IN SHA ALLAH.</em></b></p>
+</ul>
+</body>
+</html>
